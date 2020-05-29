@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="popup.js"></script>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div>
+    <div class = "space-between full-width">
+      <h2>右键选择</h2>
+      <input type="button" id="addAll" value="全部添加">
+    </div>
+
+    <table id="table" border="1">
+      <thead id="table-head">
+        <tr>
+            <th>序号</th>
+            <th>商品名</th>
+            <th>我方底价</th>
+            <th>删除</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+    
+  </div>
+  
+  <div class = "text">
+    <hr />
+    <input type="button" id="bidding" value="开始竞价">
+    <h3>倒计时：<span id = "countDown"></span></h3>
+  </div>
+</body>
+</html>
